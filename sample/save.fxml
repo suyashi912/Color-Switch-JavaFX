@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="paneSave" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="547.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="458.0" fitWidth="216.0" layoutX="-2.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@b2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="458.0" fitWidth="216.0" layoutX="350.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@b2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="458.0" fitWidth="216.0" layoutX="202.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@b2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="219.0" fitWidth="298.0" layoutX="118.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@save9.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="404.0" fitWidth="594.0" layoutX="-4.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@save7.gif" />
+         </image>
+      </ImageView>
+      <TextField layoutX="318.0" layoutY="298.0" prefHeight="41.0" prefWidth="166.0" style="-fx-background-color: WHITE;" />
+      <Text fill="WHITE" layoutX="48.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENTER USERNAME" textAlignment="CENTER" wrappingWidth="192.96202087402344">
+         <font>
+            <Font name="AR CHRISTY" size="41.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="156.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAVED GAMES " textAlignment="CENTER" wrappingWidth="256.67108154296875">
+         <font>
+            <Font name="AR CHRISTY" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="back2" accessibleRole="BUTTON" fitHeight="220.0" fitWidth="63.0" layoutX="48.0" layoutY="38.0" onMouseClicked="#goBack2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="63.0" layoutX="445.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CROP3.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="playButton" accessibleRole="BUTTON" fill="DODGERBLUE" layoutX="259.0" layoutY="476.0" radius="51.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <ImageView fitHeight="105.0" fitWidth="63.0" layoutX="233.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pl3.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f2f2f2" layoutX="53.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHOOSE GAME " textAlignment="CENTER">
+         <font>
+            <Font name="AR CHRISTY" size="32.0" />
+         </font>
+      </Text>
+      <TextField layoutX="318.0" layoutY="369.0" prefHeight="41.0" prefWidth="166.0" style="-fx-background-color: WHITE;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="paneRulels" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="547.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="564.0" fitWidth="547.0" layoutX="4.0" layoutY="430.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@set2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="277.0" layoutX="392.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@inf3.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="277.0" layoutX="392.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@inf3.gif" />
+         </image></ImageView>
+      <Text fill="#f5f4f4" layoutX="130.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RULES" textAlignment="CENTER" wrappingWidth="286.93670654296875">
+         <font>
+            <Font name="AR CHRISTY" size="52.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="back" accessibleRole="BUTTON" fitHeight="220.0" fitWidth="63.0" layoutX="44.0" layoutY="34.0" onMouseClicked="#goBack1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="63.0" layoutX="435.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CROP3.png" />
+         </image>
+      </ImageView>
+      <Text fill="#f0ecec" layoutX="28.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) YOU HAVE TO PRESS THE MOUSE TO KEEP THE BALL AFLOAT AS WELL AS MOVE UPWARDS." textAlignment="JUSTIFY" wrappingWidth="299.1382141113281">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f0ecec" layoutX="28.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) COLLECT THE STARS ALONG THE WAY TO INCREASE YOUR SCORE. " textAlignment="JUSTIFY" wrappingWidth="286.93670654296864">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f0ecec" layoutX="28.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) COLLECTED STARS CAN BE USED TO RESURRECT THE BALL IN CASE OF IT HITS AN OBSTACLE. " textAlignment="JUSTIFY" wrappingWidth="286.93670654296864">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
