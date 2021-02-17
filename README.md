@@ -29,4 +29,13 @@ The game contains a wide variety of features coupled with amazing aesthetics and
 </ol>
 <H2>A SNEAK PEEK INTO OUR GAME: </H2>
 
-<img src="images/Screenshot%20(194).png" width = "450" height = "600">
+<img src="images/Screenshot%20(184).png" width = "450" height = "600">
+
+<img src="images/Screenshot%20(199).png" width = "450" height = "600">
+
+<img src="images/Screenshot%20(198).png" width = "450" height = "600">
+
+<img src="images/Screenshot%20(185).png" width = "450" height = "600">
+
+<img src="images/Screenshot%20(183).png" width = "450" height = "600">
+
